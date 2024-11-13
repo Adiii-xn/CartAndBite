@@ -1,0 +1,35 @@
+/*Username Field*/
+.text-field {
+    -fx-border-color: black; /* Black border */
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+
+ }
+
+
+/*Password Field*/
+.password-field {
+    -fx-border-color: black; /* Black border */
+    -fx-background-color: transparent; /* Transparent background */
+}
+
+
+/*Button Field*/
+.button {
+    -fx-border-color: black; /* Black border */
+    -fx-background-color: #FFFFFF; /* Solid black fill */
+    -fx-text-fill: black; /* Text color */
+    -fx-font-weight: bold; /* Make text bold */
+    -fx-padding: 10px 20px; /* Padding for the button */
+}
+
+
+.button:hover {
+    -fx-background-color: #FDAE0D; /* Darker fill color on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #666666; /* Even darker fill color when pressed */
+}
+

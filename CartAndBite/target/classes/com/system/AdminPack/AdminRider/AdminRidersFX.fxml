@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #F6F6F6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.system.AdminPack.AdminRider.AdminRiderController">
+   <left>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="25.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/DeliveryBikeIcons.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="126.0" layoutY="64.0" text="HI ADMIN" textFill="#3b3b3b">
+               <font>
+                  <Font name="Nirmala UI Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="126.0" layoutY="94.0" text="Administrator" textFill="#3b3b3b">
+               <font>
+                  <Font name="Nirmala UI" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="254.0" layoutY="64.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="25.0" style="-fx-background-color: #FFFFFF;" />
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="257.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/DotsIcons.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="dashboardButton" alignment="TOP_LEFT" layoutX="38.0" layoutY="180.0" mnemonicParsing="false" onAction="#adminDashboard" prefHeight="40.0" prefWidth="220.0" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Dashboard">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="56.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/HomeIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="productButton" alignment="TOP_LEFT" layoutX="38.0" layoutY="249.0" mnemonicParsing="false" onAction="#adminProducts" prefHeight="40.0" prefWidth="220.0" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Products">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="56.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/ProductsIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="riderButton" alignment="TOP_LEFT" layoutX="38.0" layoutY="319.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0" style="-fx-background-color: FDAE0D;" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Riders">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="56.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/HelmetIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="inventoryButton" alignment="TOP_LEFT" layoutX="38.0" layoutY="390.0" mnemonicParsing="false" onAction="#adminInventory" prefHeight="40.0" prefWidth="220.0" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Inventory">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="56.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/InventoryIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="reportButton" alignment="TOP_LEFT" layoutX="38.0" layoutY="460.0" mnemonicParsing="false" onAction="#adminReports" prefHeight="40.0" prefWidth="220.0" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Reports">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="56.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/ReportsIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="logoutButton" alignment="TOP_LEFT" layoutX="40.0" layoutY="530.0" mnemonicParsing="false" onAction="#adminLogout" prefHeight="40.0" prefWidth="220.0" styleClass="menu-button" stylesheets="@../../../../CssFiles/AdminPack.css" text="         Logout">
+               <font>
+                  <Font name="Nirmala UI" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="30.0" fitWidth="25.0" layoutX="58.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/LogoutIcon.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="700.0" prefWidth="850.0" BorderPane.alignment="CENTER">
+         <children>
+            <ButtonBar />
+            <Pane fx:id="searchPane" layoutX="56.0" layoutY="56.0" prefHeight="60.0" prefWidth="522.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 25;">
+               <children>
+                  <TextField layoutX="7.0" layoutY="10.0" prefHeight="35.0" prefWidth="420.0" promptText="Search Rider" style="-fx-background-radius: 25; -fx-background-color: FFFFFF;">
+                     <font>
+                        <Font name="Nirmala UI Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+            <Button fx:id="addRiderBtn" layoutX="593.0" layoutY="66.0" mnemonicParsing="false" onAction="#addRider" prefHeight="40.0" prefWidth="40.0" styleClass="upload-button" stylesheets="@../../../../CssFiles/AdminPack.css">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Images/Icons/AddIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="addRiderBtn1" layoutX="524.0" layoutY="66.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" styleClass="upload-button" stylesheets="@../../../../CssFiles/AdminPack.css" />
+            <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="534.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Images/Icons/SearchIcon.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="addRiderBtn2" layoutX="654.0" layoutY="66.0" mnemonicParsing="false" onAction="#addRider" prefHeight="40.0" prefWidth="40.0" styleClass="upload-button" stylesheets="@../../../../CssFiles/AdminPack.css">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Images/Icons/EditIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="addRiderBtn21" layoutX="714.0" layoutY="66.0" mnemonicParsing="false" onAction="#addRider" prefHeight="40.0" prefWidth="40.0" styleClass="upload-button" stylesheets="@../../../../CssFiles/AdminPack.css">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Images/Icons/DeleteIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

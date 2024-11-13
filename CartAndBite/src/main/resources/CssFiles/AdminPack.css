@@ -1,0 +1,44 @@
+.menu-button {
+    -fx-background-color: #FFFFFF; /* Background color */
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 20px; /* Padding */
+
+}
+
+.menu-button:hover {
+    -fx-background-color: #F5F5F7; /* Slightly darker on hover */
+}
+
+.menu-button:pressed {
+    -fx-background-color: #FFA000; /* Darker color on click */
+}
+
+.border-button {
+    -fx-background-color: #FFFFFF; /* Background color */
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-border-radius: 20px;
+    -fx-border-color: #000000;
+
+}
+
+.border-button:hover {
+    -fx-background-color: #F5F5F7; /* Slightly darker on hover */
+}
+
+.border-button:pressed {
+    -fx-background-color: #FFA000; /* Darker color on click */
+}
+
+.corner-curve{
+
+    -fx-border-radius: 20px;
+}
+
+.upload-button {
+    -fx-background-color: transparent; /* Makes the background transparent */
+    -fx-border-color: transparent;     /* Hides the border */
+    -fx-text-fill: white;               /* Optional: changes text color */
+}
+
+
